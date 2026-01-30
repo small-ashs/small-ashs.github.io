@@ -1,0 +1,156 @@
+/***** 方案三：深蓝灰（稍微冷一点，适合偏现代） *****/
+
+body {
+  background-color: #0d1117;
+  color: #e6edf7;
+}
+
+.section,
+#about-us,
+#blog,
+#price,
+#subscribe,
+#contact-us,
+#footer,
+#footer-bottom,
+.post-content,
+#price .block .pricing-list ul li .item,
+#contact-us .block form input,
+#contact-us .block form textarea {
+  background-color: #161b22;
+  color: #e6edf7;
+}
+
+.heading,
+.title,
+#footer .block h3,
+#footer .block .social-media-link h3 {
+  color: #e6edf7;
+}
+
+.heading span,
+.title span,
+#footer .block h3 span,
+#footer .block .social-media-link h3 span {
+  color: #ffaf3f;
+}
+
+p,
+#about-us .block p,
+#price .block > p,
+#price .block .pricing-list ul li .item p,
+#footer .block .blog ul li p,
+#footer .block .info ul li p,
+#footer .block .info ul li p a,
+#footer .block .gallary ul li p,
+#footer-bottom p {
+  color: #9fb3d1;
+}
+
+nav .block {
+  background: rgba(13, 17, 23, 0.96);
+}
+
+nav .block .navbar-default .navbar-nav > li > a {
+  color: #e6edf7;
+}
+
+nav .block .navbar-default .navbar-nav > li > a:before {
+  background-color: transparent;
+}
+
+nav .block .navbar-default .navbar-nav > li > a:hover:before,
+nav .block .navbar-default .navbar-nav > .active > a:before,
+nav .block .navbar-default .navbar-nav > li.current > a:before {
+  background-color: #ffaf3f;
+}
+
+nav .block .navbar-default .navbar-nav > .active > a,
+nav .block .navbar-default .navbar-nav > .active > a:focus,
+nav .block .navbar-default .navbar-nav > .active > a:hover {
+  color: #ffaf3f;
+}
+
+a,
+.post-content h3 a {
+  color: #ffaf3f;
+}
+
+a:hover,
+.post-content h3 a:hover,
+#footer .block .info ul li p a:hover {
+  color: #ffd68a;
+}
+
+/* 主按钮：橙色，hover 变亮 */
+.btn-default,
+#blog .block .btn-more-info,
+#price .block .pricing-list .btn,
+#contact-us .block button,
+#subscribe .block form .input-group-addon button,
+.subscription-form #mc_embed_signup .mc-field-group input.button,
+.pagination .page-item .page-link {
+  background-color: #ff7b29;
+  border-color: #ff7b29;
+  color: #161b22;
+}
+
+.btn-default:hover,
+#blog .block .btn-more-info:hover,
+#price .block .pricing-list .btn:hover,
+#contact-us .block button:hover,
+#subscribe .block form .input-group-addon button:hover,
+.subscription-form #mc_embed_signup .mc-field-group input.button:hover,
+.pagination .page-item .page-link:hover {
+  background-color: #ffaf3f;
+  border-color: #ffaf3f;
+  color: #161b22;
+}
+
+.pagination .page-item.active .page-link {
+  background: #ffaf3f;
+  border-color: #ffaf3f;
+  color: #161b22;
+}
+
+.heading:before,
+.before-border,
+.post-content h3:before,
+#price .block .pricing-list ul li .item .item-title .border-bottom {
+  background-color: #30363d;
+  border-color: #30363d;
+}
+
+.slick-dots li button {
+  background: #4b5563;
+}
+.slick-dots li.slick-active button {
+  background: #ffaf3f;
+}
+
+#footer {
+  background-color: #161b22;
+}
+#footer-bottom {
+  background-color: #0b0f14;
+}
+
+#footer .block .social-media-link ul li a {
+  background: #30363d;
+  color: #e6edf7;
+}
+#footer .block .social-media-link ul li a:hover {
+  background: #ffaf3f;
+  color: #161b22;
+}
+
+#contact-us .block form input:focus,
+#contact-us .block form textarea:focus {
+  border: 1px solid #ffaf3f;
+}
+
+#subscribe .block h1.heading,
+#subscribe .block p,
+.subscription-form #mc_embed_signup #mce-success-response {
+  color: #ffffff;
+}

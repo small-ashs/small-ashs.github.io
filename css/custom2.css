@@ -1,0 +1,170 @@
+/***** 方案一：深红棕（适合新疆抓饭 / 烤肉） *****/
+
+body {
+  background-color: #121212;
+  color: #f5f5f5;
+}
+
+/* 通用容器和卡片背景 */
+.section,
+#about-us,
+#blog,
+#price,
+#subscribe,
+#contact-us,
+#footer,
+#footer-bottom,
+.post-content,
+#price .block .pricing-list ul li .item,
+#contact-us .block form input,
+#contact-us .block form textarea {
+  background-color: #181818;
+  color: #f5f5f5;
+}
+
+/* 标题 */
+.heading,
+.title,
+#footer .block h3,
+#footer .block .social-media-link h3 {
+  color: #f5f5f5;
+}
+
+/* 标题中的强调色 */
+.heading span,
+.title span,
+#footer .block h3 span,
+#footer .block .social-media-link h3 span {
+  color: #e05b31;
+}
+
+/* 文字细节 */
+p,
+#about-us .block p,
+#price .block > p,
+#price .block .pricing-list ul li .item p,
+#footer .block .blog ul li p,
+#footer .block .info ul li p,
+#footer .block .info ul li p a,
+#footer .block .gallary ul li p,
+#footer-bottom p {
+  color: #d0c3b6;
+}
+
+/* 导航条 */
+nav .block {
+  background: rgba(18, 18, 18, 0.92);
+}
+
+nav .block .navbar-default .navbar-nav > li > a {
+  color: #f5f5f5;
+}
+
+/* 导航 hover / 当前项下划线与颜色 */
+nav .block .navbar-default .navbar-nav > li > a:before {
+  background-color: transparent;
+}
+
+nav .block .navbar-default .navbar-nav > li > a:hover:before,
+nav .block .navbar-default .navbar-nav > .active > a:before,
+nav .block .navbar-default .navbar-nav > li.current > a:before {
+  background-color: #e05b31;
+}
+
+nav .block .navbar-default .navbar-nav > .active > a,
+nav .block .navbar-default .navbar-nav > .active > a:focus,
+nav .block .navbar-default .navbar-nav > .active > a:hover {
+  color: #e05b31;
+}
+
+/* 链接 */
+a,
+.post-content h3 a {
+  color: #e05b31;
+}
+
+a:hover,
+.post-content h3 a:hover,
+#footer .block .info ul li p a:hover {
+  color: #f2c14f;
+}
+
+/* 主按钮、常用按钮 */
+.btn-default,
+#blog .block .btn-more-info,
+#price .block .pricing-list .btn,
+#contact-us .block button,
+#subscribe .block form .input-group-addon button,
+.subscription-form #mc_embed_signup .mc-field-group input.button,
+.pagination .page-item .page-link {
+  background-color: #b63a24;
+  border-color: #b63a24;
+  color: #ffffff;
+}
+
+/* 按钮 hover */
+.btn-default:hover,
+#blog .block .btn-more-info:hover,
+#price .block .pricing-list .btn:hover,
+#contact-us .block button:hover,
+#subscribe .block form .input-group-addon button:hover,
+.subscription-form #mc_embed_signup .mc-field-group input.button:hover,
+.pagination .page-item .page-link:hover {
+  background-color: #e05b31;
+  border-color: #e05b31;
+  color: #ffffff;
+}
+
+/* 分页当前页 */
+.pagination .page-item.active .page-link {
+  background: #e05b31;
+  border-color: #e05b31;
+  color: #ffffff;
+}
+
+/* 细分割线 */
+.heading:before,
+.before-border,
+.post-content h3:before,
+#price .block .pricing-list ul li .item .item-title .border-bottom {
+  background-color: #3b2b22;
+  border-color: #3b2b22;
+}
+
+/* slick dots */
+.slick-dots li button {
+  background: #555555;
+}
+.slick-dots li.slick-active button {
+  background: #e05b31;
+}
+
+/* footer 背景、底部 */
+#footer {
+  background-color: #181818;
+}
+#footer-bottom {
+  background-color: #101010;
+}
+
+/* 社交图标 */
+#footer .block .social-media-link ul li a {
+  background: #333333;
+  color: #ffffff;
+}
+#footer .block .social-media-link ul li a:hover {
+  background: #e05b31;
+}
+
+/* input / textarea 聚焦边框 */
+#contact-us .block form input:focus,
+#contact-us .block form textarea:focus {
+  border: 1px solid #e05b31;
+}
+
+/* 订阅区域文字 */
+#subscribe .block h1.heading,
+#subscribe .block p,
+.subscription-form #mc_embed_signup #mce-success-response {
+  color: #ffffff;
+}
